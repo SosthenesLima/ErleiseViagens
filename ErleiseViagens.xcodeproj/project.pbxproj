@@ -13,6 +13,8 @@
 		6672E11D2B79A637005F786D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672E11B2B79A637005F786D /* Main.storyboard */; };
 		6672E11F2B79A638005F786D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6672E11E2B79A638005F786D /* Assets.xcassets */; };
 		6672E1222B79A638005F786D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672E1202B79A638005F786D /* LaunchScreen.storyboard */; };
+		66FC96A42B7A89DB006C836E /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FC96A32B7A89DB006C836E /* HomeTableViewHeader.xib */; };
+		66FC96A62B7A9003006C836E /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC96A52B7A9003006C836E /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6672E11E2B79A638005F786D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6672E1212B79A638005F786D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6672E1232B79A638005F786D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FC96A32B7A89DB006C836E /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		66FC96A52B7A9003006C836E /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		6672E1092B79A637005F786D = {
 			isa = PBXGroup;
 			children = (
+				66FC96A52B7A9003006C836E /* HomeTableViewHeader.swift */,
+				66FC96A32B7A89DB006C836E /* HomeTableViewHeader.xib */,
 				6672E1142B79A637005F786D /* ErleiseViagens */,
 				6672E1132B79A637005F786D /* Products */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6672E1222B79A638005F786D /* LaunchScreen.storyboard in Resources */,
+				66FC96A42B7A89DB006C836E /* HomeTableViewHeader.xib in Resources */,
 				6672E11F2B79A638005F786D /* Assets.xcassets in Resources */,
 				6672E11D2B79A637005F786D /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6672E11A2B79A637005F786D /* ViewController.swift in Sources */,
+				66FC96A62B7A9003006C836E /* HomeTableViewHeader.swift in Sources */,
 				6672E1162B79A637005F786D /* AppDelegate.swift in Sources */,
 				6672E1182B79A637005F786D /* SceneDelegate.swift in Sources */,
 			);
