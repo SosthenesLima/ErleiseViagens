@@ -20,19 +20,38 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-0E-im9" userLabel="Banner View">
                             <rect key="frame" x="20" y="130" width="375" height="130"/>
                             <subviews>
-                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-4Z-PEQ">
-                                    <rect key="frame" x="-8" y="0.0" width="200" height="128"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-4Z-PEQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
                                     <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="200" id="0Gk-Kg-gxa"/>
+                                    </constraints>
                                 </view>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XOz-gb-Zbj">
-                                    <rect key="frame" x="193" y="0.0" width="182" height="128"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOz-gb-Zbj">
+                                    <rect key="frame" x="193" y="0.0" width="182" height="130"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="182" id="aPk-28-VyG"/>
+                                    </constraints>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="XOz-gb-Zbj" secondAttribute="trailing" id="57W-eF-VHc"/>
+                                <constraint firstAttribute="bottom" secondItem="XOz-gb-Zbj" secondAttribute="bottom" id="5Im-yM-589"/>
+                                <constraint firstAttribute="bottom" secondItem="XOz-gb-Zbj" secondAttribute="bottom" id="6gn-Zk-W30"/>
+                                <constraint firstAttribute="trailing" secondItem="XOz-gb-Zbj" secondAttribute="trailing" id="71U-K6-xQ2"/>
                                 <constraint firstAttribute="height" constant="130" id="BDg-1A-tzu"/>
+                                <constraint firstItem="XOz-gb-Zbj" firstAttribute="top" secondItem="Igt-0E-im9" secondAttribute="top" id="KFh-fr-2f3"/>
+                                <constraint firstItem="XOz-gb-Zbj" firstAttribute="top" secondItem="Igt-0E-im9" secondAttribute="top" id="MbQ-kW-QRB"/>
+                                <constraint firstItem="XOz-gb-Zbj" firstAttribute="top" secondItem="Igt-0E-im9" secondAttribute="top" id="P9N-om-JT6"/>
+                                <constraint firstAttribute="trailing" secondItem="XOz-gb-Zbj" secondAttribute="trailing" id="ST7-Nl-i4Z"/>
+                                <constraint firstItem="XOz-gb-Zbj" firstAttribute="top" secondItem="Igt-0E-im9" secondAttribute="top" id="hV4-gt-5PX"/>
+                                <constraint firstAttribute="bottom" secondItem="Zg4-4Z-PEQ" secondAttribute="bottom" id="iV7-gR-bvi"/>
+                                <constraint firstItem="Zg4-4Z-PEQ" firstAttribute="top" secondItem="Igt-0E-im9" secondAttribute="top" id="iy8-0X-bOo"/>
+                                <constraint firstItem="Zg4-4Z-PEQ" firstAttribute="leading" secondItem="Igt-0E-im9" secondAttribute="leading" id="qEF-Wl-NGg"/>
+                                <constraint firstAttribute="bottom" secondItem="XOz-gb-Zbj" secondAttribute="bottom" id="seQ-dn-qPx"/>
+                                <constraint firstAttribute="trailing" secondItem="XOz-gb-Zbj" secondAttribute="trailing" id="u9q-6t-AQn"/>
+                                <constraint firstAttribute="bottom" secondItem="XOz-gb-Zbj" secondAttribute="bottom" id="zEC-CA-ocr"/>
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Erleise Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuH-e9-sCH">
