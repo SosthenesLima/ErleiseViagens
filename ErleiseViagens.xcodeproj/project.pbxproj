@@ -41,11 +41,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6672E1092B79A637005F786D = {
+		664540812B7D88AB00A4639F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6672E1152B79A637005F786D /* AppDelegate.swift */,
+				6672E1172B79A637005F786D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		664540822B7D890F00A4639F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		664540832B7D894700A4639F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				664540842B7D898A00A4639F /* Header */,
+				6672E1192B79A637005F786D /* ViewController.swift */,
+				6672E11B2B79A637005F786D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		664540842B7D898A00A4639F /* Header */ = {
 			isa = PBXGroup;
 			children = (
 				66FC96A52B7A9003006C836E /* HomeTableViewHeader.swift */,
 				66FC96A32B7A89DB006C836E /* HomeTableViewHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		664540852B7D89D300A4639F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6672E1092B79A637005F786D = {
+			isa = PBXGroup;
+			children = (
 				6672E1142B79A637005F786D /* ErleiseViagens */,
 				6672E1132B79A637005F786D /* Products */,
 			);
@@ -62,10 +102,10 @@
 		6672E1142B79A637005F786D /* ErleiseViagens */ = {
 			isa = PBXGroup;
 			children = (
-				6672E1152B79A637005F786D /* AppDelegate.swift */,
-				6672E1172B79A637005F786D /* SceneDelegate.swift */,
-				6672E1192B79A637005F786D /* ViewController.swift */,
-				6672E11B2B79A637005F786D /* Main.storyboard */,
+				664540812B7D88AB00A4639F /* AppDelegate */,
+				664540822B7D890F00A4639F /* Model */,
+				664540832B7D894700A4639F /* View */,
+				664540852B7D89D300A4639F /* ViewModel */,
 				6672E11E2B79A638005F786D /* Assets.xcassets */,
 				6672E1202B79A638005F786D /* LaunchScreen.storyboard */,
 				6672E1232B79A638005F786D /* Info.plist */,
