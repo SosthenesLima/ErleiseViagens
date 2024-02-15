@@ -15,10 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noN-42-NDx" userLabel="Header View">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-0E-im9" userLabel="Banner View">
-                            <rect key="frame" x="20" y="130" width="375" height="130"/>
+                            <rect key="frame" x="313" y="130" width="375" height="130"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-4Z-PEQ">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
@@ -72,9 +72,8 @@
                                 <constraint firstAttribute="bottom" secondItem="XOz-gb-Zbj" secondAttribute="bottom" id="zEC-CA-ocr"/>
                             </constraints>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agência de Viagens Erleise " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuH-e9-sCH">
-                            <rect key="frame" x="8" y="82" width="296" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agência de Viagens Erleise " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuH-e9-sCH">
+                            <rect key="frame" x="352" y="55" width="296" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -83,18 +82,22 @@
                     <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="250" id="J12-4C-DoS"/>
+                        <constraint firstItem="TuH-e9-sCH" firstAttribute="top" secondItem="noN-42-NDx" secondAttribute="top" constant="55" id="SMV-ce-iHE"/>
                         <constraint firstAttribute="bottom" secondItem="Igt-0E-im9" secondAttribute="bottom" constant="-10" id="W0Y-h3-Q87"/>
+                        <constraint firstItem="TuH-e9-sCH" firstAttribute="top" secondItem="noN-42-NDx" secondAttribute="top" constant="55" id="jfh-W5-J9O"/>
+                        <constraint firstAttribute="width" constant="1000" id="v0X-8H-sly"/>
                     </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="noN-42-NDx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3hJ-Kf-Ju6"/>
-                <constraint firstItem="noN-42-NDx" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="SnK-fD-JsW"/>
+                <constraint firstItem="TuH-e9-sCH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="59" id="2dX-xF-aJi"/>
                 <constraint firstItem="noN-42-NDx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wdq-3d-NK8"/>
+                <constraint firstItem="TuH-e9-sCH" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Zkc-Tv-lyD"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Igt-0E-im9" secondAttribute="trailing" constant="19" id="aeg-xZ-PiX"/>
                 <constraint firstItem="Igt-0E-im9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="mSr-oV-x7p"/>
+                <constraint firstItem="noN-42-NDx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zFn-0h-ZSz"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
