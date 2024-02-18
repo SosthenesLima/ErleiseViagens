@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3EM-9Q-Hne" userLabel="BackgroundView">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="amw-hW-kHU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="amw-hW-kHU" userLabel="ViagemImage">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ÁEREO + HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8d-cl-gIY">
@@ -118,7 +118,17 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="100.76335877862596" y="-11.267605633802818"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="3EM-9Q-Hne" id="IeW-WK-BSd"/>
+                <outlet property="diariaViagemLabel" destination="1C9-z9-L7N" id="oPP-g1-R1I"/>
+                <outlet property="precoSemDescontoLabel" destination="KDP-4B-HBg" id="Dsl-3G-Xn7"/>
+                <outlet property="precoViagemLabel" destination="Xd6-kM-FG8" id="Qif-hE-x5l"/>
+                <outlet property="statusCancelamentoViagemLabel" destination="Hk5-pt-61q" id="Olt-lK-Yn5"/>
+                <outlet property="subtituloViagemLabel" destination="3xl-e2-oiU" id="rOW-DQ-mzV"/>
+                <outlet property="tituloViagemLabel" destination="Y8d-cl-gIY" id="IYW-Bb-mWy"/>
+                <outlet property="viagemImage" destination="amw-hW-kHU" id="wJa-tH-dB7"/>
+            </connections>
+            <point key="canvasLocation" x="437" y="46"/>
         </tableViewCell>
     </objects>
     <resources>
@@ -126,10 +136,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

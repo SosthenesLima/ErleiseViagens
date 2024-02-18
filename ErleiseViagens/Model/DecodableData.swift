@@ -1,9 +1,9 @@
-//
+/*
 //  DecodableData.swift
-//  AluraViagens
-//
-//  Created by Ândriu Felipe Coelho on 28/01/21.
-//
+//  ErleiseViagens
+ 
+ Created by Sósthenes Oliveira Lima on 16/02/2024.
+*/
 
 import Foundation
 
@@ -41,7 +41,7 @@ func load(_ filename: String) -> [ViagemViewModel]? {
         
         for sessao in listaDeViagens.keys {
             switch ViagemViewModelType(rawValue: sessao)  {
-            case .destaques:
+            case .destaque:
                 if let destaques = tiposDeViagens?.destaques {
                     let destaqueViewModel = ViagemDestaqueViewModel(destaques)
                     listaViagemViewModel.insert(destaqueViewModel, at: 0)

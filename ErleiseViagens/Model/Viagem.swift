@@ -1,9 +1,9 @@
-//
-//  Viagem.swift
-//  AluraViagens
-//
-//  Created by Ândriu Felipe Coelho on 07/02/21.
-//
+/*
+   Viagem.swift
+   ErleiseViagens
+
+   Created by Sósthenes Oliveira Lima on 16/02/2024.
+*/
 
 import Foundation
 

@@ -1,9 +1,9 @@
-//
+/*
 //  TipoDeViagens.swift
-//  AluraViagens
-//
-//  Created by Ândriu Felipe Coelho on 07/02/21.
-//
+//  ErleiseViagens
+ 
+    Created by Sósthenes Oliveira Lima on 16/02/2024.
+*/
 
 import Foundation
 
