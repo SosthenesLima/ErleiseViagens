@@ -41,7 +41,7 @@ func load(_ filename: String) -> [ViagemViewModel]? {
         
         for sessao in listaDeViagens.keys {
             switch ViagemViewModelType(rawValue: sessao)  {
-            case .destaque:
+            case .destaques:
                 if let destaques = tiposDeViagens?.destaques {
                     let destaqueViewModel = ViagemDestaqueViewModel(destaques)
                     listaViagemViewModel.insert(destaqueViewModel, at: 0)

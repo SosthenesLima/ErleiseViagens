@@ -14,7 +14,7 @@ class ViagemDestaqueViewModel:  ViagemViewModel {
     }
     
     var tipo: ViagemViewModelType {
-        return .destaque
+        return .destaques
     }
     
     var viagens: [Viagem]

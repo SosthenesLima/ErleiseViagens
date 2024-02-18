@@ -56,12 +56,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 579" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd6-kM-FG8">
-                                <rect key="frame" x="10" y="328" width="42.333333333333336" height="20"/>
-                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="14"/>
-                                <color key="textColor" systemColor="systemOrangeColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancelamento Grátis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hk5-pt-61q">
                                 <rect key="frame" x="10" y="363.66666666666669" width="280" height="17"/>
                                 <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="12"/>
@@ -77,6 +71,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 579" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd6-kM-FG8">
+                                <rect key="frame" x="10" y="331" width="42.333333333333336" height="20"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="14"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
@@ -87,16 +87,20 @@
                             <constraint firstItem="KDP-4B-HBg" firstAttribute="leading" secondItem="ipg-To-VrT" secondAttribute="trailing" constant="8" symbolic="YES" id="BVr-iE-LHI"/>
                             <constraint firstAttribute="trailing" secondItem="Hk5-pt-61q" secondAttribute="trailing" constant="10" id="DM6-wt-BOu"/>
                             <constraint firstItem="Xd6-kM-FG8" firstAttribute="leading" secondItem="3EM-9Q-Hne" secondAttribute="leading" constant="10" id="Dbd-Vn-HsF"/>
+                            <constraint firstItem="Xd6-kM-FG8" firstAttribute="leading" secondItem="3EM-9Q-Hne" secondAttribute="leading" constant="10" id="EgL-QC-DdT"/>
                             <constraint firstItem="amw-hW-kHU" firstAttribute="top" secondItem="3EM-9Q-Hne" secondAttribute="top" id="FhI-el-5E0"/>
                             <constraint firstItem="ipg-To-VrT" firstAttribute="leading" secondItem="3EM-9Q-Hne" secondAttribute="leading" constant="10" id="Hgc-Pg-Lkx"/>
+                            <constraint firstItem="Hk5-pt-61q" firstAttribute="top" secondItem="Xd6-kM-FG8" secondAttribute="bottom" constant="12.67" id="KQS-mS-IuJ"/>
                             <constraint firstAttribute="bottom" secondItem="KDP-4B-HBg" secondAttribute="bottom" constant="62" id="O0x-0s-PIf"/>
                             <constraint firstItem="KDP-4B-HBg" firstAttribute="leading" secondItem="3EM-9Q-Hne" secondAttribute="leading" constant="95" id="QMi-CH-mqq"/>
                             <constraint firstAttribute="trailing" secondItem="3xl-e2-oiU" secondAttribute="trailing" constant="10" id="SA8-e7-v0H"/>
                             <constraint firstItem="tfg-S9-uZ9" firstAttribute="leading" secondItem="Xd6-kM-FG8" secondAttribute="trailing" constant="36.670000000000002" id="TlV-S1-DvK"/>
                             <constraint firstItem="3xl-e2-oiU" firstAttribute="top" secondItem="Y8d-cl-gIY" secondAttribute="bottom" constant="15" id="YlI-9Q-578"/>
+                            <constraint firstItem="Xd6-kM-FG8" firstAttribute="top" secondItem="ipg-To-VrT" secondAttribute="bottom" constant="16" id="bXa-rz-ERu"/>
                             <constraint firstAttribute="bottom" secondItem="amw-hW-kHU" secondAttribute="bottom" constant="200" id="cDe-ag-Sc9"/>
                             <constraint firstAttribute="trailing" secondItem="1C9-z9-L7N" secondAttribute="trailing" constant="10" id="euG-Jw-IRT"/>
                             <constraint firstItem="ipg-To-VrT" firstAttribute="top" secondItem="1C9-z9-L7N" secondAttribute="bottom" constant="15" id="euG-vr-Hey"/>
+                            <constraint firstItem="tfg-S9-uZ9" firstAttribute="leading" secondItem="Xd6-kM-FG8" secondAttribute="trailing" constant="33.670000000000002" id="fIQ-SG-ffW"/>
                             <constraint firstItem="KDP-4B-HBg" firstAttribute="firstBaseline" secondItem="ipg-To-VrT" secondAttribute="firstBaseline" id="fUx-6x-yt3"/>
                             <constraint firstItem="Hk5-pt-61q" firstAttribute="top" secondItem="tfg-S9-uZ9" secondAttribute="bottom" constant="7.3300000000000001" id="jgS-zV-RzE"/>
                             <constraint firstItem="3xl-e2-oiU" firstAttribute="leading" secondItem="3EM-9Q-Hne" secondAttribute="leading" constant="10" id="mUv-Wu-oVU"/>
@@ -122,7 +126,7 @@
                 <outlet property="backgroundViewCell" destination="3EM-9Q-Hne" id="IeW-WK-BSd"/>
                 <outlet property="diariaViagemLabel" destination="1C9-z9-L7N" id="oPP-g1-R1I"/>
                 <outlet property="precoSemDescontoLabel" destination="KDP-4B-HBg" id="Dsl-3G-Xn7"/>
-                <outlet property="precoViagemLabel" destination="Xd6-kM-FG8" id="Qif-hE-x5l"/>
+                <outlet property="precoViagemLabel" destination="Xd6-kM-FG8" id="l1J-LD-IaW"/>
                 <outlet property="statusCancelamentoViagemLabel" destination="Hk5-pt-61q" id="Olt-lK-Yn5"/>
                 <outlet property="subtituloViagemLabel" destination="3xl-e2-oiU" id="rOW-DQ-mzV"/>
                 <outlet property="tituloViagemLabel" destination="Y8d-cl-gIY" id="IYW-Bb-mWy"/>

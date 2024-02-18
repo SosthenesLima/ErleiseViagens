@@ -8,9 +8,9 @@
 import Foundation
 
 enum ViagemViewModelType: String {
-    case destaque
+    case destaques
     case ofertas
-    case internacional
+    case internacionais
 }
 
 
