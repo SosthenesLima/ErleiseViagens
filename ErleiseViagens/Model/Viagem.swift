@@ -1,8 +1,8 @@
 /*
    Viagem.swift
    ErleiseViagens
-
    Created by Sósthenes Oliveira Lima on 16/02/2024.
+ 
 */
 
 import Foundation
